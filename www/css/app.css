@@ -1,0 +1,78 @@
+/*
+ * Please see the included README.md file for license terms and conditions.
+ */
+
+
+/* This file is completely optional and not required. */
+/* Note the reference that includes it in the index.html file. */
+
+
+/* Disable certain interactions on touch devices */
+/* SOURCE: https://github.com/ftlabs/fastclick/blob/master/examples/input.html */
+/* LICENSE: https://github.com/ftlabs/fastclick/blob/master/LICENSE */
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+}
+ul#css3menu1,ul#css3menu1 ul{
+	margin:0;list-style:none;padding:0;background-color:#4e9ed9;border-width:2px;border-style:solid;border-color:#FFF;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;}
+ul#css3menu1 ul{
+	display:none;position:absolute;left:100%;top:0;-moz-box-shadow:3.5px 3.5px 5px #000000;-webkit-box-shadow:3.5px 3.5px 5px #000000;box-shadow:3.5px 3.5px 5px #000000;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;padding:0 3px 3px;}
+ul#css3menu1 li:hover>*{
+	display:block;}
+ul#css3menu1 li{
+	position:relative;display:block;white-space:nowrap;font-size:0;}
+ul#css3menu1 li:hover{
+	z-index:1;}
+ul#css3menu1{
+	font-size:0;z-index:999;position:relative;display:block;float:left;padding:0 3px 3px;}
+ul#css3menu1>li{
+	margin:3px 0 0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;vertical-align:middle;text-align:left;text-decoration:none;font:14px Trebuchet MS;color:#FFF;cursor:pointer;padding:10px;background-color:#4e9ed9;background-image:none;background-repeat:repeat;border-width:1px 0 0 0;border-style:solid;border-color:#424542;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+ul#css3menu1 ul li{
+	float:none;margin:3px 0 0;}
+ul#css3menu1 ul a{
+	text-align:left;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;color:#FFF;text-decoration:none;}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	background-color:#ffa202;border-color:#424542;border-style:solid;color:#FFF;background-image:url("mainbk.png");text-decoration:none;}
+ul#css3menu1 img{
+	border:none;vertical-align:middle;margin-right:10px;}
+ul#css3menu1 span{
+	display:block;overflow:visible;background-image:url("arrowsub.png");background-position:right center;background-repeat:no-repeat;padding-right:14px;}
+ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li a.pressed{
+	color:#FFF;text-decoration:none;}
+ul#css3menu1 li.topfirst>a{
+	border-width:0;}
+ul#css3menu1 li.subfirst>a{
+	border-width:0;}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+html {
+    -ms-touch-action: pan-x ;
+}
+
+/* Recommended for Windows 8 Phone */
+/* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+body {
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+}
+
+/* allow copy-paste */
+input, textarea  {
+    -webkit-user-select: text ; -moz-user-select: text ; -ms-user-select: text ; user-select: text ;
+}
+
+body {
+    /* margin: 0.5rem ; */
+    background: #f2d78b ;
+    color: blueviolet;
+}
